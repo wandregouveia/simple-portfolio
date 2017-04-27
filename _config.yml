@@ -1,0 +1,38 @@
+# Site
+title: Your Name (maybe?)
+
+# URL
+url: http://your-site.com
+baseurl: ''
+permalink: :title/
+include: ['_pages']
+
+# Build settings
+markdown: kramdown
+port: 4321
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      cover: "/assets/covers/homecover.jpg"
+
+# Data
+social:
+  facebook_user: "facebookUserName"
+  twitter_user: "twitterUserName"

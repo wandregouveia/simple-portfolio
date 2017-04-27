@@ -1,0 +1,12 @@
+<a class="menu-item menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+<div class="menu-item menu-subtitle">Projetos</div>
+{% for post in site.posts %}
+  <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
+
+<div class="menu-item menu-subtitle">Info</div>
+{% assign menuPages = site.pages | where:"menu","true" %}
+{% for page in menuPages %}
+  <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+{% endfor %}
