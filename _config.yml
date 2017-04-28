@@ -3,7 +3,7 @@ title: Your Name (maybe?)
 
 # URL
 url: http://your-site.com
-baseurl: ''
+baseurl: '/simple-portfolio'
 permalink: :title/
 include: ['_pages']
 
