@@ -39,6 +39,8 @@ prose:
     - _config.yml
     - _includes
     - _layouts
+    - _pages/404.md
+    - _pages/index.md
     - _sass
     - css
     - js
