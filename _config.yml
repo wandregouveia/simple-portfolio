@@ -86,8 +86,8 @@ prose:
           element: "text"
           label: "nome do projeto"
           placeholder: "Colocar Aqui o Nome Da Página"
-      - name: "swipebox"
+      - name: "permalink"
         field:
-          element: "permalink"
+          element: "text"
           label: "link dessa página"
           placeholder: "/contato/"
